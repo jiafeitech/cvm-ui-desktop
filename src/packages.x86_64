@@ -122,3 +122,18 @@ xf86-video-intel
 xf86-video-amdgpu
 nvidia
 nvidia-utils
+
+# xorg
+xorg
+xorg-server
+xorg-xinit
+
+# kde plasma
+plasma-meta
+konsole
+kwrite
+dolphin
+ark
+sddm
+plasma-wayland-session
+egl-wayland
