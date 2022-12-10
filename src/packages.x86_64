@@ -135,8 +135,6 @@ kwrite
 dolphin
 ark
 sddm
-plasma-wayland-session
-egl-wayland
 
 # plymouth
 plymouth
