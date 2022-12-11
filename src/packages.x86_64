@@ -139,3 +139,16 @@ sddm
 # plymouth
 plymouth
 cvm-plymouth-theme
+
+# themes
+bibata-cursor-theme-cvm
+fluent-gtk-theme-cvm
+fluent-kde-theme-cvm
+latte-dock
+conky-lua-nv
+kvantum-qt5
+cvm-ui-wallpapers
+
+# calamares
+calamares-cvm
+calamares-config-cvm
