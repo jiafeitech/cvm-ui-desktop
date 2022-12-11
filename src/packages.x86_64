@@ -135,6 +135,8 @@ kwrite
 dolphin
 ark
 sddm
+libadwaita
+gtk4
 
 # plymouth
 plymouth
