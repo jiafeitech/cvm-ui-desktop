@@ -39,7 +39,7 @@ own_window_argb_value=0,
 -------------------------------------
 use_xft=true,
 xftalpha=1,
-font="Droid Sans:size=10",
+font="Inter:size=10",
 text_buffer_size=256,
 override_utf8_locale=true,
 
@@ -71,14 +71,14 @@ conky.text = [[
 \
 \
 \
-${font Poiret One:weight=Light:size=96}${color0}\
+${font Inter:weight=Medium:size=96}${color0}\
 ${alignc}${time %H:%M}\
 ${font}${color}
 \
 \
 \
 \
-${font Poiret One:weight=Light:size=28}${color1}\
+${font Inter:weight=Regular:size=24}${color1}\
 ${voffset 30}\
 ${alignc}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A, %B %d"}\
 ${font}${color}
