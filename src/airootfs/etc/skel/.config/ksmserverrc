@@ -3,15 +3,13 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 
 [LegacySession: saved at previous logout]
 clientMachine1=localhost
-clientMachine2=localhost
 command1=/usr/bin/conky,--daemonize,--pause=1
-command2=/usr/bin/conky,--daemonize,--pause=1
-count=2
+count=1
 
 [Session: saved at previous logout]
-clientId1=1063766d0000167085277500000015850005
+clientId1=10cce9dc2d000167082809500000018790004
 count=1
 program1=/usr/lib/DiscoverNotifier
-restartCommand1=/usr/lib/DiscoverNotifier,-session,1063766d0000167085277500000015850005_1670853405_312949
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10cce9dc2d000167082809500000018790004_1670828638_2507
 restartStyleHint1=0
 userId1=podter
