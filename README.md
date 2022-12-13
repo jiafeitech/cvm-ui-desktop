@@ -37,7 +37,7 @@ Make sure you have root/sudo access
 Just run the build script with sudo
 
 ```bash
-# Add executable permission
+# Give executable permission
 sudo chmod +x ./build.sh
 
 # Build!
@@ -53,7 +53,7 @@ You can see the image in `out` folder if it build successfully!
 Run the cleanup script with sudo
 
 ```bash
-# Add executable permission
+# Give executable permission
 sudo chmod +x ./cleanup.sh
 
 # Cleanup
