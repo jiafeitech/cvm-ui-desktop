@@ -3,7 +3,7 @@
 
 iso_name="cvm-ui-desktop"
 iso_label="CVM_UI_DESKTOP_51_$(date +%Y%m)"
-iso_publisher="Podter"
+iso_publisher="jiafeitech"
 iso_application="Cvm UI Desktop 5.1"
 iso_version="5.1"
 install_dir="arch"
