@@ -1,5 +1,0 @@
-#!/bin/bash
-
-rm -vf /etc/sddm.conf.d/autologin.conf
-
-rm /usr/local/bin/post-install

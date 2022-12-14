@@ -22,5 +22,4 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/etc/shadow"]="0:0:0400"
   ["/etc/gshadow"]="0:0:0400"
-  ["/usr/local/bin/post-install"]="0:0:755"
 )
