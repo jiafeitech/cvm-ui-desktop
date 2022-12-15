@@ -10,6 +10,10 @@
     An operating system made by JIΛFEI (jiafeitech)
 </h3>
 
+# Get an image
+
+You can download an ISO file from the [releases page](https://github.com/jiafeitech/cvm-ui-desktop-repo/releases)
+
 # Building an image
 
 This operating system is based on Arch Linux. So building with Arch linux is recommended
@@ -63,3 +67,12 @@ sudo ./cleanup.sh
 This will delete `work` folder and `out` folder
 
 The cleanup script runs everytime when you run the build script
+
+# Cvming soon
+
+- [ ] Sample musics, video, pictures (like Windows 7)
+- [ ] Better splash screen logo
+- [ ] Welcvm wizard
+- [ ] More slideshow in Calamares (installer)
+- [ ] Fix SDDM icons
+- [ ] Grub theme (?)
