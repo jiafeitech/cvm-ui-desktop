@@ -117,9 +117,7 @@ networkmanager
 network-manager-applet
 
 # gpu drivers
-xf86-video-qxl
-xf86-video-intel
-xf86-video-amdgpu
+xorg-drivers
 nvidia
 nvidia-utils
 
