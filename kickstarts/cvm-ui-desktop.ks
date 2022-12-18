@@ -3,10 +3,10 @@
 %packages
 
 # rebranding
--fedora-logos
+-fedora-logos*
 -fedora-release*
 generic-release*
-generic-logos
+generic-logos*
 
 # remove libreoffice
 -libreoffice*
