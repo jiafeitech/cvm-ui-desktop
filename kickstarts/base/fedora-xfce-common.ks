@@ -10,7 +10,6 @@
 
 %packages
 
-fedora-release-xfce
 # install env-group to resolve RhBug:1891500
 @^xfce-desktop-environment
 
