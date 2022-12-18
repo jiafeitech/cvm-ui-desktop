@@ -97,16 +97,17 @@ Run this to clean up mock environment:
 mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --scrub=all
 ```
 
+Remove flatten kickstart file and ISO:
+
+```bash
+rm -vf flat-cvm-ui-desktop.ks
+rm -vf *.iso
+```
+
 If your system is using SELinux, you can set it back to enforcing:
 
 ```bash
 sudo setenforce 1
-```
-
-Don't forget to remove flatten kickstart file:
-
-```bash
-rm -vf flat-cvm-ui-desktop.ks
 ```
 
 # Bugs and ideas
