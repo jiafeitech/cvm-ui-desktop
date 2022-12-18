@@ -4,8 +4,12 @@
 
 # rebranding
 -fedora-logos*
--fedora-release*
-generic-release*
+-fedora-release
+-fedora-release-common
+-fedora-release-workstation
+generic-release
+generic-release-common
+generic-release-notes
 generic-logos*
 
 # remove libreoffice
