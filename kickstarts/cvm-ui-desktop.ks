@@ -1,16 +1,12 @@
-%include base/fedora-live-workstation.ks
+%include base/fedora-live-xfce.ks
 
 %packages
 
 # rebranding
 -fedora-logos*
--fedora-release
--fedora-release-common
--fedora-release-workstation
-generic-release
-generic-release-common
-generic-release-notes
+-fedora-release*
 generic-logos*
+generic-release
 
 # remove libreoffice
 -libreoffice*
