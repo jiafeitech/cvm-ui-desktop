@@ -8,7 +8,7 @@ repo --name=cvm-ui-desktop --baseurl=https://download.copr.fedorainfracloud.org/
 # rebranding
 -fedora-logos*
 -fedora-release*
-generic-logos*
+cvm-ui-desktop-logos
 cvm-ui-desktop-release
 
 %end

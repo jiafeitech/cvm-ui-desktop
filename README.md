@@ -4,7 +4,7 @@
 </p>
 
 <h2 align="center">
-    Cvm UI Desktop 5.1
+    Cvm UI Desktop 5.2
 </h2>
 <h3 align="center">
     An operating system made by JIΛFEI (jiafeitech)
@@ -53,26 +53,26 @@ ksflatten --config kickstarts/cvm-ui-desktop.ks -o flat-cvm-ui-desktop.ks --vers
 Set up mock build environment:
 
 ```bash
-mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --init
-mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --install lorax-lmc-novirt pykickstart
+mock -r ./cvm-ui-desktop-5.2-x86_64.cfg --init
+mock -r ./cvm-ui-desktop-5.2-x86_64.cfg --install lorax-lmc-novirt pykickstart
 ```
 
 Transfer flat kickstart file to mock build environment:
 
 ```bash
-mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --copyin flat-cvm-ui-desktop.ks /
+mock -r ./cvm-ui-desktop-5.2-x86_64.cfg --copyin flat-cvm-ui-desktop.ks /
 ```
 
 Enter mock environment:
 
 ```bash
-mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --shell --old-chroot --enable-network
+mock -r ./cvm-ui-desktop-5.2-x86_64.cfg --shell --old-chroot --enable-network
 ```
 
 From within mock environment, Run this to create the Live Image:
 
 ```bash
-livemedia-creator --ks /flat-cvm-ui-desktop.ks --no-virt --resultdir /var/lmc --project Cvm-UI-Desktop-Live --make-iso --volid Cvm-UI-Desktop-5.1 --iso-only --iso-name Cvm-UI-Desktop-5.1_x86_64.iso --releasever 37 --macboot
+livemedia-creator --ks /flat-cvm-ui-desktop.ks --no-virt --resultdir /var/lmc --project Cvm-UI-Desktop-Live --make-iso --volid Cvm-UI-Desktop-5.2 --iso-only --iso-name Cvm-UI-Desktop-5.2_x86_64.iso --releasever 37 --macboot
 ```
 
 Grab a snack and relax while the script is building an image. This will take 30 minutes to an hour.
@@ -86,7 +86,7 @@ exit
 Move built ISO from mock location to whatever location you want:
 
 ```bash
-mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --copyout "/var/lmc/*.iso" .
+mock -r ./cvm-ui-desktop-5.2-x86_64.cfg --copyout "/var/lmc/*.iso" .
 ```
 
 ## Cleanup
@@ -94,7 +94,7 @@ mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --copyout "/var/lmc/*.iso" .
 Run this to clean up mock environment:
 
 ```bash
-mock -r ./cvm-ui-desktop-5.1-x86_64.cfg --scrub=all
+mock -r ./cvm-ui-desktop-5.2-x86_64.cfg --scrub=all
 ```
 
 Remove flatten kickstart file and ISO:
