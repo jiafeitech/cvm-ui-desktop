@@ -113,3 +113,7 @@ sudo setenforce 1
 # Bugs and ideas
 
 If you have an idea or found a bug, feel free to open an issue [here](https://github.com/jiafeitech/cvm-ui-desktop/issues/new)!
+
+# Credits
+
+Go to [CREDITS.md](CREDITS.md)
