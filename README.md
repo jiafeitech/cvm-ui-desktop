@@ -16,6 +16,13 @@ Cvm UI Desktop 5.1 (Arch linux based) is no longer maintained. This version is v
 
 Stay tuned for 5.2 (Fedora linux based) You can see the Fedora source code on the [main branch](https://github.com/jiafeitech/cvm-ui-desktop/tree/main)
 
+I switch to Fedora linux for many reasons:
+
+- It's more stable
+- Beginner friendly
+- Managing versions is more easier
+- Managing logos and brandings is more easier
+
 # Get an image
 
 You can download an ISO file from the [releases page](https://github.com/jiafeitech/cvm-ui-desktop/releases)
