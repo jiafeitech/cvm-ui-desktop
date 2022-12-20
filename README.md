@@ -10,6 +10,12 @@
     An operating system made by JIΛFEI (jiafeitech)
 </h3>
 
+# NO LONGER MAINTAINED
+
+Cvm UI Desktop 5.1 (Arch linux based) is no longer maintained. This version is very unstable (can't even install on some VM)
+
+Stay tuned for 5.2 (Fedora linux based) You can see the Fedora source code on the [main branch](https://github.com/jiafeitech/cvm-ui-desktop/tree/main)
+
 # Get an image
 
 You can download an ISO file from the [releases page](https://github.com/jiafeitech/cvm-ui-desktop/releases)
@@ -71,12 +77,3 @@ The cleanup script runs everytime when you run the build script
 # Bugs and ideas
 
 If you have an idea or found a bug, feel free to open an issue [here](https://github.com/jiafeitech/cvm-ui-desktop/issues/new)!
-
-# Cvming soon
-
-- [ ] Sample musics, video, pictures (like Windows 7)
-- [ ] Better splash screen logo
-- [ ] Welcvm wizard
-- [ ] More slideshow in Calamares (installer)
-- [ ] Fix SDDM icons
-- [ ] Grub theme (?)
