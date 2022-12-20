@@ -131,7 +131,7 @@ mountPersistentHome() {
   # we should make that the real /home.  useful for mtd device on olpc
   if [ -d /home/home ]; then mount --bind /home/home /home ; fi
   [ -x /sbin/restorecon ] && /sbin/restorecon /home
-  if [ -d /home/liveuser ]; then USERADDARGS="-M" ; fi
+  if [ -d /home/jiafei ]; then USERADDARGS="-M" ; fi
 }
 
 findPersistentHome() {
@@ -157,10 +157,10 @@ if [ -n "\$configdone" ]; then
   exit 0
 fi
 
-# add liveuser user with no passwd
-action "Adding live user" useradd \$USERADDARGS -c "Live System User" liveuser
-passwd -d liveuser > /dev/null
-usermod -aG wheel liveuser > /dev/null
+# add jiafei user with no passwd
+action "Adding live user" useradd \$USERADDARGS -c "Live System User" jiafei
+passwd -d jiafei > /dev/null
+usermod -aG wheel jiafei > /dev/null
 
 # Remove root password lock
 passwd -d root > /dev/null
