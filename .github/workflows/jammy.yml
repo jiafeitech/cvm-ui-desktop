@@ -14,7 +14,7 @@ jobs:
       options: --privileged -it
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Install debootstrap/git
         run: apt update && apt install git debootstrap -y
@@ -26,7 +26,7 @@ jobs:
           cd cvm-ui-desktop
           ./build.sh etc/terraform-azure.conf
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: Cvm UI Desktop 5.2
           path: /cvm-ui-desktop/builds/
