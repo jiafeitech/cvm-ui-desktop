@@ -14,9 +14,9 @@
 
 Cvm UI Desktop 5.1 (Arch linux based) is no longer maintained. This version is very unstable (can't even install on some VM)
 
-Stay tuned for 5.2 (Ubuntu linux based) You can see the Ubuntu source code on the [main branch](https://github.com/jiafeitech/cvm-ui-desktop/tree/main)
+Stay tuned for 5.2 (Ubuntu based) You can see the Ubuntu source code on the [main branch](https://github.com/jiafeitech/cvm-ui-desktop/tree/main)
 
-I switch to Ubuntu linux for many reasons:
+I switch to Ubuntu for many reasons:
 
 - It's more stable
 - Beginner friendly
