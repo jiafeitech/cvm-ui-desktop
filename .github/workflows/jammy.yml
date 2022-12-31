@@ -29,4 +29,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Cvm UI Desktop 5.2
-          path: /iso-builder/builds/
+          path: /cvm-ui-desktop/builds/
