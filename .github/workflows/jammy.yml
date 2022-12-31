@@ -1,4 +1,4 @@
-name: Cvm UI Desktop
+name: Build ISO
 
 on:
   workflow_dispatch:
