@@ -2,7 +2,7 @@ name: Cvm UI Desktop
 
 on:
   workflow_dispatch:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -14,19 +14,19 @@ jobs:
       options: --privileged -it
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Install debootstrap/git
-      run: apt update && apt install git debootstrap -y
+      - name: Install debootstrap/git
+        run: apt update && apt install git debootstrap -y
 
-    - name: Build ISO
-      run: |
-        cd /
-        git clone https://github.com/jiafeitech/cvm-ui-desktop.git
-        cd iso-builder
-        ./build.sh etc/terraform.conf
+      - name: Build ISO
+        run: |
+          cd /
+          git clone https://github.com/jiafeitech/cvm-ui-desktop.git
+          cd cvm-ui-desktop
+          ./build.sh etc/terraform.conf
 
-    - uses: actions/upload-artifact@v2
-      with:
-        name: Cvm UI Desktop 5.2
-        path: /iso-builder/builds/
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Cvm UI Desktop 5.2
+          path: /iso-builder/builds/
