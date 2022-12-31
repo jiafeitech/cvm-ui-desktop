@@ -1,6 +1,6 @@
 <p align="center">
-    <img alt="cvm logo dark mode" src="https://raw.githubusercontent.com/jiafeitech/cvm-ui-desktop/main/assets/pixmaps/cvm-ui-desktop-logo-text-dark.png#gh-dark-mode-only">
-    <img alt="cvm logo light mode" src="https://raw.githubusercontent.com/jiafeitech/cvm-ui-desktop/main/assets/pixmaps/cvm-ui-desktop-logo-text.png#gh-light-mode-only">
+    <img alt="cvm logo dark mode" src="https://raw.githubusercontent.com/jiafeitech/cvm-ui-desktop/main/assets/cvm-ui-desktop-logo-text-dark.png#gh-dark-mode-only">
+    <img alt="cvm logo light mode" src="https://raw.githubusercontent.com/jiafeitech/cvm-ui-desktop/main/assets/cvm-ui-desktop-logo-text.png#gh-light-mode-only">
 </p>
 
 <h2 align="center">
