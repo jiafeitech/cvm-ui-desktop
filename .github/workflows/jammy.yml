@@ -1,0 +1,32 @@
+name: Cvm UI Desktop
+
+on:
+  workflow_dispatch:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    container:
+      image: debian:latest
+      volumes:
+        - /proc:/proc
+      options: --privileged -it
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install debootstrap/git
+      run: apt update && apt install git debootstrap -y
+
+    - name: Build ISO
+      run: |
+        cd /
+        git clone https://github.com/jiafeitech/cvm-ui-desktop.git
+        cd iso-builder
+        ./build.sh etc/terraform.conf
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Cvm UI Desktop 5.2
+        path: /iso-builder/builds/

@@ -1,0 +1,19 @@
+#!/bin/sh
+# Description: Set Cvm UI Desktop name and info
+
+# Set OS name
+echo "@DISTRO_NAME @VERSION @CODENAME /\n /\l" > /etc/issue
+
+# Set OS info
+echo 'PRETTY_NAME="@DISTRO_NAME @VERSION @CODENAME"
+NAME="@DISTRO_NAME"
+VERSION_ID="@VERSION"
+VERSION="@VERSION (@CODENAME)"
+VERSION_CODENAME="@CHANNEL"
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="http://bit.ly/jiafeishop"
+SUPPORT_URL="https://github.com/jiafeitech/cvm-ui-desktop"
+BUG_REPORT_URL="https://github.com/jiafeitech/cvm-ui-desktop/issues"
+PRIVACY_POLICY_URL="http://bit.ly/jiafeishop"
+UBUNTU_CODENAME="@BASECODENAME"' > /etc/os-release

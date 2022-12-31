@@ -1,0 +1,1 @@
+deb [arch=@ARCH trusted=yes] https://jiafeitech.github.io/cvm-ui-desktop-repo/repo/ @CHANNEL main
