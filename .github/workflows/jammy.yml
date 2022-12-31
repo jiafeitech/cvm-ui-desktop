@@ -24,7 +24,7 @@ jobs:
           cd /
           git clone https://github.com/jiafeitech/cvm-ui-desktop.git
           cd cvm-ui-desktop
-          ./build.sh etc/terraform.conf
+          ./build.sh etc/terraform-azure.conf
 
       - uses: actions/upload-artifact@v2
         with:
