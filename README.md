@@ -10,7 +10,7 @@
     An operating system made by JIΛFEI (jiafeitech)
 </h3>
 
-# NO LONGER MAINTAINED
+## NO LONGER MAINTAINED
 
 Cvm UI Desktop 5.1 (Arch linux based) is no longer maintained. This version is very unstable (can't even install on some VM)
 
@@ -23,17 +23,17 @@ I switch to Ubuntu for many reasons:
 - Managing versions is more easier
 - Managing logos and brandings is more easier
 
-# Get an image
+## Get an image
 
 You can download an ISO file from the [releases page](https://github.com/jiafeitech/cvm-ui-desktop/releases)
 
-# Building an image
+## Building an image
 
 This operating system is based on Arch Linux. So building with Arch linux is recommended
 
 Virtual machine, [Docker container](https://hub.docker.com/_/archlinux) or [Arch WSL](https://github.com/yuk7/ArchWSL) should work.
 
-## Installing building dependencies
+### Installing building dependencies
 
 Install these packages:
 
@@ -47,7 +47,7 @@ sudo pacman -S archiso
 
 for Chaotic-AUR, follow their instructions on [their website](https://aur.chaotic.cx)
 
-## Building
+### Building
 
 Make sure you have root/sudo access
 
@@ -65,7 +65,7 @@ Grab a snack and relax while the script is building an image. This will take 30 
 
 You can see the image in `out` folder if it build successfully!
 
-## Cleanup
+### Cleanup
 
 Run the cleanup script with sudo
 
@@ -81,6 +81,6 @@ This will delete `work` folder and `out` folder
 
 The cleanup script runs everytime when you run the build script
 
-# Bugs and ideas
+## Bugs and ideas
 
 If you have an idea or found a bug, feel free to open an issue [here](https://github.com/jiafeitech/cvm-ui-desktop/issues/new)!
