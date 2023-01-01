@@ -4,4 +4,11 @@ ubuntu-standard
 ubuntu-desktop-minimal
 
 # apps
-ji-amusic
+ji-music
+
+# store
+gnome-software
+fwupd
+apt-config-icons-hidpi
+gnome-software-plugin-flatpak
+flatpak

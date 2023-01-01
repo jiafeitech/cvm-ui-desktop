@@ -1,0 +1,4 @@
+# Prefer cvm-ui-desktop-repo repository
+Package: *
+Pin: origin jiafeitech.github.io
+Pin-Priority: 1000
