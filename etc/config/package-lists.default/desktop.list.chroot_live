@@ -15,5 +15,11 @@ dmraid
 wamerican
 fwupdate
 mokutil
-ubiquity-frontend-gtk
 zram-config
+
+# ubiquity
+ubiquity
+ubiquity-casper
+ubiquity-frontend-gtk
+ubiquity-slideshow-ubuntu
+ubiquity-ubuntu-artwork

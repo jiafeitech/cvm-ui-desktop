@@ -52,10 +52,11 @@ sed -i "s/@CHANNEL/$CHANNEL/" config/archives/*.list*
 sed -i "s/@ARCH/$ARCH/" config/archives/*.list*
 
 DATE=$(date +%Y%m%d)
-sed -i "s/@CHANNEL/$CHANNEL/" config/includes.binary/.disk/info
-sed -i "s/@ARCH/$ARCH/" config/includes.binary/.disk/info
-sed -i "s/@DISTRO_NAME/$GIT_NAME/" config/includes.binary/.disk/info
+sed -i "s/@GIT_NAME/$GIT_NAME/" config/includes.binary/.disk/info
+sed -i "s/@DISTRO_NAME/$NAME/" config/includes.binary/.disk/info
 sed -i "s/@VERSION/$VERSION/" config/includes.binary/.disk/info
+sed -i "s/@CODENAME/$CODENAME/" config/includes.binary/.disk/info
+sed -i "s/@ARCH/$ARCH/" config/includes.binary/.disk/info
 sed -i "s/@DATE/$DATE/" config/includes.binary/.disk/info
 
 sed -i "s/@DISTRO_NAME/$NAME/" config/hooks/live/004-set-os-info.chroot

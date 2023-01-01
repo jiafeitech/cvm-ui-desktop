@@ -2,14 +2,14 @@
 # Description: Set Cvm UI Desktop name and info
 
 # Set OS name
-echo "@DISTRO_NAME @VERSION @CODENAME /\n /\l" > /etc/issue
+echo "@DISTRO_NAME @VERSION (@CODENAME) \\\n \\\l\n" > /etc/issue
 
 # Set OS info
-echo 'PRETTY_NAME="@DISTRO_NAME @VERSION @CODENAME"
+echo 'PRETTY_NAME="@DISTRO_NAME @VERSION (@CODENAME)"
 NAME="@DISTRO_NAME"
 VERSION_ID="@VERSION"
 VERSION="@VERSION (@CODENAME)"
-VERSION_CODENAME="@CHANNEL"
+VERSION_CODENAME=@BASECODENAME
 ID=ubuntu
 ID_LIKE=debian
 HOME_URL="http://bit.ly/jiafeishop"
