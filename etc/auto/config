@@ -52,7 +52,7 @@ sed -i "s/@CHANNEL/$CHANNEL/" config/archives/*.list*
 sed -i "s/@ARCH/$ARCH/" config/archives/*.list*
 
 DATE=$(date +%Y%m%d)
-sed -i "s/@BASECODENAME/$BASECODENAME/" config/includes.binary/.disk/info
+sed -i "s/@CHANNEL/$CHANNEL/" config/includes.binary/.disk/info
 sed -i "s/@ARCH/$ARCH/" config/includes.binary/.disk/info
 sed -i "s/@DISTRO_NAME/$GIT_NAME/" config/includes.binary/.disk/info
 sed -i "s/@VERSION/$VERSION/" config/includes.binary/.disk/info
