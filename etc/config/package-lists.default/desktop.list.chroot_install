@@ -1,7 +1,7 @@
-# core
-ubuntu-minimal
-ubuntu-standard
-ubuntu-desktop-minimal
+# meta packages
+cvm-ui-desktop-minimal
+cvm-ui-desktop-standard
+cvm-ui-desktop-desktop
 
 # apps
 ji-music
