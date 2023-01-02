@@ -7,8 +7,9 @@ sudo apt update
 # sudo apt install -y \
 #     plymouth-theme-vanilla plymouth-theme-vanilla-logo plymouth-theme-vanilla-text \
 #     vanilla-distrologo \
-#     vanilla-first-setup \
-#     calamares-settings-vanilla
+#     vanilla-first-setup
+
+sudo apt install -y cvm-ui-desktop-distrologo
 
 # mkdir -p /etc/skel/.config/autostart
 # if [ -f /usr/share/applications/io.github.vanilla-os.FirstSetup.desktop ]; then
