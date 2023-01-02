@@ -9,8 +9,6 @@ sudo apt update
 #     vanilla-distrologo \
 #     vanilla-first-setup
 
-sudo apt install -y cvm-ui-desktop-distrologo
-
 # mkdir -p /etc/skel/.config/autostart
 # if [ -f /usr/share/applications/io.github.vanilla-os.FirstSetup.desktop ]; then
 #     cp /usr/share/applications/io.github.vanilla-os.FirstSetup.desktop /etc/skel/.config/autostart/
