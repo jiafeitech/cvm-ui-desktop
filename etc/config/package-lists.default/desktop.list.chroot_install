@@ -12,3 +12,6 @@ fwupd
 apt-config-icons-hidpi
 gnome-software-plugin-flatpak
 flatpak
+
+# plymouth
+plymouth-theme-spinner

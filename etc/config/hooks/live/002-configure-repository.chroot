@@ -1,0 +1,10 @@
+#!/bin/sh
+# Description: Add the Flathub repository and Cvm UI Desktop branding
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+sudo apt update
+
+sudo apt install -y \
+    plymouth-theme-cvm-ui-desktop plymouth-theme-cvm-ui-desktop-logo plymouth-theme-cvm-ui-desktop-text \
+    cvm-ui-desktop-distrologo
